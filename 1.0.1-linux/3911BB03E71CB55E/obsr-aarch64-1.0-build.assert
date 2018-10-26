@@ -1,20 +1,20 @@
 --- !omap
 - out_manifest: |
-    007590bd0646fd4fd530fb700646c43a5232b547c975c9675b200a6c25aba69e  obsr-1.0.0-aarch64-linux-gnu-debug.tar.gz
-    2ab31027f85c33238e73ccd3b19f7e55a3e778ef4211c9070d3c6cdd3d4e620d  obsr-1.0.0-aarch64-linux-gnu.tar.gz
-    b3f7c120c54c93d9f9b7261fed90506cbc580873999fdc97a6c9a282d812c916  src/obsr-1.0.0.tar.gz
+    dfdd7276db73b1381851360d3c8267addc0c6fad37cf68c4c54b97f06e40a5a5  obsr-1.0.0-aarch64-linux-gnu-debug.tar.gz
+    d9bcce5d91ae4394a479812ad2e33c453f77b0668a91433b3e05cac8e123e033  obsr-1.0.0-aarch64-linux-gnu.tar.gz
+    b3db5c7edcebe6df9554aa314287bf7876632c6740102204a9c24f3fe38ebad5  src/obsr-1.0.0.tar.gz
 - in_manifest: |-
     d1778fdd122a9d174258efa2fcf1bbe7c93011e970cc0baf94bc6d08b5eb199e  obsr-aarch64-1.0-desc.yml
-    git:cecffd47a97acfe5ca24f8e63855bb1180537fb2 obsr
+    git:7240306b5b6cc2249839f10203c4c6ec6e8b4ab6 obsr
 - base_manifests: !omap
   - xenial-amd64: |
       ca6c86cb229082cc22874ed320eac8d128cc91f086fe5687946e7d05758516a3  adduser_3.113+nmu3ubuntu4_all.deb
       860e22d2ed80af3b11ebbe7625a3c0681f49679ada7447fe4ac7191ecb931343  apparmor_2.10.95-0ubuntu2.10_amd64.deb
       e5a26afe7f04b5d8b6292a5c6fbb5482797e410bda4ab8720cba528f3ba1fb3f  apparmor_2.10.95-0ubuntu2_amd64.deb
       7d81577084a098cfe584b26202b1cbb84a0554f52b40e608ad77f8139654ca9f  apt-utils_1.2.10ubuntu1_amd64.deb
-      41a79a1c0722eff7d90ff01711d2e2afd6ad21dab98e783f551d6e6bd8c6e5a5  apt-utils_1.2.27_amd64.deb
+      1f9cd5915c177229baec1408dad65e5204a4129c836ed9269e710753067a1b8b  apt-utils_1.2.29_amd64.deb
       b92526303f058b835e8cbe0489cfc3e9b8195a2e3dac40480c74587b1b0820bb  apt_1.2.10ubuntu1_amd64.deb
-      5cb73fc1656ae62136ae4b371916b5b351c9aaa398a36a6a71bcb0d920099c7b  apt_1.2.27_amd64.deb
+      36216c03b1c6effc6419b426d091df8889e35efb5f844727e1f97330df1589cf  apt_1.2.29_amd64.deb
       027ba00547630211adb0c74e250f9f71c2d62db4e56351f7974719c2341c224e  autoconf_2.69-9_all.deb
       d751ccfc07111b34fdd07795689771625d07f28c2769e6f06d4e473500039641  automake_1%3a1.15-4ubuntu1_all.deb
       e17d8684dabb3ec7db679093a9db57763f036665f20f8df00db7afe27a53f250  autotools-dev_20150820.1_all.deb
@@ -165,9 +165,9 @@
       eb3307cba4b55b5a8ed80062813410214dcedab51cc93e8609fb33891fb359f3  libapr1_1.5.2-3_amd64.deb
       2c5832d56bd7dda5f01b73b87c0c6d60daf1baf747018259d3000b410fbd6156  libaprutil1_1.5.4-1build1_amd64.deb
       9d08ccdbf77bd7eacd11e7430b7b938a0660dc7d6b0e73465568388fcfd65d47  libapt-inst2.0_1.2.10ubuntu1_amd64.deb
-      7dbfc6b321e72f8e1895a0aeb9a95d7dae25793b9a73238b85b0c71b079eb1eb  libapt-inst2.0_1.2.27_amd64.deb
+      42ccb8d9080e837a188b63ac70b89f7a1d50e04adf881bb943ae0c2e9bc7a8bb  libapt-inst2.0_1.2.29_amd64.deb
       24f15d1ef38436364ad5b1a07c08a1c54351dbf3067e71d40f19efa6412e8085  libapt-pkg5.0_1.2.10ubuntu1_amd64.deb
-      0c9b9b21c46646facbb66faff004895c24233c15b3a9002541210b9868d2032c  libapt-pkg5.0_1.2.27_amd64.deb
+      dc0a144c5c2ff5afe8878063b5ef6530f2b4dcdcf0ca8c80a159c22c19bc805b  libapt-pkg5.0_1.2.29_amd64.deb
       452d3c1850e4ce8841858d75950c0412fb8b49f4182ddbb0d3b54b72671c3489  libasan1_4.9.3-13ubuntu2_amd64.deb
       1e687d15320f2a490ed7194563a497153a5270aacebef9d07deaff30c52eaeea  libasan2-arm64-cross_5.4.0-6ubuntu1~16.04.9cross1_all.deb
       c0690d21e0a66017759907c0e7df42acafa12bedb09958d37e10558d0eff48d6  libasan2_5.3.1-14ubuntu2_amd64.deb

@@ -1,16 +1,16 @@
 --- !omap
 - out_manifest: |
-    84107a5849be74bdeb15edce726ca35ea7407a0c80e39c833d3d46a19e7fae15  obsr-1.0.0-win-unsigned.tar.gz
-    5ec63ddaca7a6808bf6fdf2d76db7080890d9e895e4b65ba6a0b442790d339f3  obsr-1.0.0-win32-debug.zip
-    e76ef75a20fa85b4c33c2bd3635b8cfbb5f2f838e580063ec1d85fb3ccec42f6  obsr-1.0.0-win32-setup-unsigned.exe
-    c686811bc683d7565a86e7f00fdc3005da3d3afd9338448bdefe36e0746cad8d  obsr-1.0.0-win32.zip
-    c7bf6ddbfeee613fec95520ddf5140f8201d6bf830d72ba129dd9f6f7f0fed9c  obsr-1.0.0-win64-debug.zip
-    376c8e6b5af57563d31954c0ed453accd589d622b71e3ad11b16bb19d66133f1  obsr-1.0.0-win64-setup-unsigned.exe
-    e84a6d6e55c80ef433e402a9081e960ac6fa3fd63099cc901e96750329e2de98  obsr-1.0.0-win64.zip
-    9b1562b34694d2956a085c9383527de57bf055310bfa98ed6b679e0e5831ea94  src/obsr-1.0.0.tar.gz
+    d8450ed4052c9735396ddc81081c362c4443ddcd127e5d2874bca35f3d43a2f5  obsr-1.0.0-win-unsigned.tar.gz
+    f40e3b11ffc8d23f7ebac0ba37b2de74e81a3999cdb9e24dbd17edb9b7686eed  obsr-1.0.0-win32-debug.zip
+    0cb810fcc04dd6dc113d6baa9cb2cd59204a7fa82e4f92fac1b1c984d6bafb3f  obsr-1.0.0-win32-setup-unsigned.exe
+    350ceda53c51f9783e7aaa1dc84dae2ba8b27643d2727a0147192995f48d16ba  obsr-1.0.0-win32.zip
+    e082f2304d3bbd02117be56abceb383d4fb4b6f205af7049e1ab68c45c47b844  obsr-1.0.0-win64-debug.zip
+    508beff978ee9a0e9ff49584c0dd65ed7562ff08db06a2bb1eff4c3e000d7ee8  obsr-1.0.0-win64-setup-unsigned.exe
+    7c0423393e7dacece7a63e5e35bb5b438892ef2b48c85a41c89b85570a2d8986  obsr-1.0.0-win64.zip
+    b0de18d051f148795ca7bfd469ad953766dd296000a9ac370efd2c5e5b56bb9c  src/obsr-1.0.0.tar.gz
 - in_manifest: |-
     fdbd3413f129fb28e0627c4ccd2a332947bf1abc1d4fa59f21ff028f7c69e448  obsr-win-1.0-desc.yml
-    git:cecffd47a97acfe5ca24f8e63855bb1180537fb2 obsr
+    git:7240306b5b6cc2249839f10203c4c6ec6e8b4ab6 obsr
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
