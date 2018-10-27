@@ -1,13 +1,13 @@
 --- !omap
 - out_manifest: |
-    a6012e4a4cd24c338e18e43ac911fa7c9fd457495cfe60d15d5b8e4e0a16393f  obsr-1.0.0-osx-unsigned.dmg
-    cb878bda5fb3935c377783294ac42b455fa0704014b679738fd49be72c1b56ee  obsr-1.0.0-osx-unsigned.tar.gz
-    a2bdfbac6087f971698676cc7d5b567460740ea79c7f7110f635c4889bad143b  obsr-1.0.0-osx64.tar.gz
-    b0de18d051f148795ca7bfd469ad953766dd296000a9ac370efd2c5e5b56bb9c  src/obsr-1.0.0.tar.gz
+    0b99b64b1dcf8ecedc3c24384d5781366de9a3952b638f26bc32e24fda34a352  obsr-1.0.1-osx-unsigned.dmg
+    0f61a6c41872fdc01a8d7a49ab67ecad0ffa068c969a1d178273133bca06b3e5  obsr-1.0.1-osx-unsigned.tar.gz
+    8cbc7e935632e16a2a74be08256ae2392d943b4b5dee38b4f8666a97f308a192  obsr-1.0.1-osx64.tar.gz
+    9a18d798d73221aaf421214a9cd4dedf16affc6dade77bc79ae79c831cca8f7e  src/obsr-1.0.1.tar.gz
 - in_manifest: |-
     4c45b26777fa5d943373bc4118c4518d4e9aabb25ab87680f96dfc584deaf910  obsr-osx-1.0-desc.yml
     bec9d089ebf2e2dd59b1a811a38ec78ebd5da18cbbcd6ab39d1e59f64ac5033f  MacOSX10.11.sdk.tar.gz
-    git:7240306b5b6cc2249839f10203c4c6ec6e8b4ab6 obsr
+    git:c1ccf8693b916ab51eae4ce4b82fb496d37e0f0d obsr
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb

@@ -1,11 +1,11 @@
 --- !omap
 - out_manifest: |
-    dfdd7276db73b1381851360d3c8267addc0c6fad37cf68c4c54b97f06e40a5a5  obsr-1.0.0-aarch64-linux-gnu-debug.tar.gz
-    d9bcce5d91ae4394a479812ad2e33c453f77b0668a91433b3e05cac8e123e033  obsr-1.0.0-aarch64-linux-gnu.tar.gz
-    b3db5c7edcebe6df9554aa314287bf7876632c6740102204a9c24f3fe38ebad5  src/obsr-1.0.0.tar.gz
+    a7b1812d32da271a81de66492f7ae6bb5a4e804822dbf2f197ffd390c2b4294a  obsr-1.0.1-aarch64-linux-gnu-debug.tar.gz
+    9f48c638cc55797e81ab43404272bb9edfb8cdeeeb077897370b7f97f22c1858  obsr-1.0.1-aarch64-linux-gnu.tar.gz
+    93bf932e9e29a54212859db7256a3812c765f13e57b44ac6cfc1531c8d67666d  src/obsr-1.0.1.tar.gz
 - in_manifest: |-
     d1778fdd122a9d174258efa2fcf1bbe7c93011e970cc0baf94bc6d08b5eb199e  obsr-aarch64-1.0-desc.yml
-    git:7240306b5b6cc2249839f10203c4c6ec6e8b4ab6 obsr
+    git:c1ccf8693b916ab51eae4ce4b82fb496d37e0f0d obsr
 - base_manifests: !omap
   - xenial-amd64: |
       ca6c86cb229082cc22874ed320eac8d128cc91f086fe5687946e7d05758516a3  adduser_3.113+nmu3ubuntu4_all.deb

@@ -1,15 +1,15 @@
 --- !omap
 - out_manifest: |
-    35f3429f0a4b2af53a5222000343f5af9d1f708fad3a996a3a386bd479c062ec  obsr-1.0.0-arm-linux-gnueabihf-debug.tar.gz
-    8e4661b45bfe0603d1cdef6af226d14df0a4fadb550329d48b500d1cfc8e5dcd  obsr-1.0.0-arm-linux-gnueabihf.tar.gz
-    e48ba89107bb791dd5ff627d651fcd4aa2930873f9ee7760ad6845d785f5560e  obsr-1.0.0-i686-pc-linux-gnu-debug.tar.gz
-    86c42c29152380ce5ecfeb6d40b54201fac3c1986aa319966de7e22291c4d170  obsr-1.0.0-i686-pc-linux-gnu.tar.gz
-    e391992a9a000c2743cbd6c6456a7f32812118f6e3c30cedf73e4ccf21f871e2  obsr-1.0.0-x86_64-linux-gnu-debug.tar.gz
-    1d8703e3870f6864ed10cd47475897b2fbc05225e98b4ce376ed7c8adb57b952  obsr-1.0.0-x86_64-linux-gnu.tar.gz
-    e2c23ba69a206391e362075f5c85e6a03a0e3c9452c1085ca215a196794e071a  src/obsr-1.0.0.tar.gz
+    3121def70402dc55eea142f51a0df45fc9da16b87fbfefe9dc5f7c3729eaa747  obsr-1.0.1-arm-linux-gnueabihf-debug.tar.gz
+    87fbcd73f4618a436b26654aab2a4a33b4e575e4a9510e8340d8fcbe5e9f9307  obsr-1.0.1-arm-linux-gnueabihf.tar.gz
+    45f17a907113d354067a72da38b24e5cec0414d1b5e5c25f745da9eaad16805c  obsr-1.0.1-i686-pc-linux-gnu-debug.tar.gz
+    da2c78185698e2cfe42ab71cb503c440b514177f2aadb4801e50db84307ff8c0  obsr-1.0.1-i686-pc-linux-gnu.tar.gz
+    c2503c819e182183729138628652b12879c854e2117a20f3775994b867b7c101  obsr-1.0.1-x86_64-linux-gnu-debug.tar.gz
+    246534efca7a7b2c9f544b608496b46413eed42393588596fa44344df48a0ddc  obsr-1.0.1-x86_64-linux-gnu.tar.gz
+    064bcac85f1a58a8cd7b693c7c99bcb6f52afcba5ea26d5fde2d4c1758837a69  src/obsr-1.0.1.tar.gz
 - in_manifest: |-
     7856541bb6d1be0e8c432a4ff4d2a547e907023d43f58eca9a4f6d9ee2b06466  obsr-linux-1.0-desc.yml
-    git:7240306b5b6cc2249839f10203c4c6ec6e8b4ab6 obsr
+    git:c1ccf8693b916ab51eae4ce4b82fb496d37e0f0d obsr
 - base_manifests: !omap
   - trusty-amd64: |
       1461ce364a68db36190a6981ad9e3889c8a5286e809e45c6e34a720905de46a4  adduser_3.113+nmu3ubuntu3_all.deb
